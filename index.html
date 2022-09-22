@@ -7,45 +7,52 @@
     <title>Студія</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
-    <header class="page-header">
-      <a href="./index.html" lang="en" class="logo"
-        >Web<span class="logo-studio">Studio</span></a
-      >
 
-      <nav>
-        <ul class="list">
-          <li class="site-nav"><a href="">Студія</a></li>
-          <li class="site-nav"><a href="./portfolio.html">Портфоліо</a></li>
-          <li class="site-nav"><a href="">Контакти</a></li>
-        </ul>
-      </nav>
 
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link-header"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="link">
-          <a href="tel:+38096111111" class="link-header">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </header>
 
-    <main>
-      <section>
+<header class="page-header">
+  <div class="container-header" >
+     
+        <a href="./index.html" lang="en" class="logo"
+          >Web<span class="logo-studio">Studio</span></a>
+
+<nav class="main-nav">
+    <ul class="site-nav">
+            <li class="item"><a href="" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+    </ul>
+  </nav>
+
+    <ul class="main-contacts">
+          <li class="item"><a href="mailto:info@devstudio.com" class="link-header">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+38096111111" class="link-header">+38 096 111 11 11</a></li>
+   </ul>
+      </div>
+     
+</header>
+
+
+
+  <section class="hero">
         <h1 class="hero-title">Ефективні рішення для <br />вашого бізнесу</h1>
         <button type="button" class="btn">Замовити послугу</button>
       </section>
 
-      <section>
+
+
+
+<div class="container">
+ <section class="features-section-title">
+    
         <h2 hidden class="features">Особливості</h2>
-        <ul class="list">
+
+
+<ul class="list">
           <li>
             <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="feature-description">
@@ -74,26 +81,29 @@
             </p>
           </li>
         </ul>
-      </section>
-
-      <section>
+</section>
+      </div>
+    
+  
+ <div class="container">
+  <section class="title-section-part">
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
+ <ul class="list-activity">
+          <li class="list-picture">
             <img
               src="./images/whatwedo1.jpg"
               width="370"
               alt="Людина працює за компьютером"
             />
           </li>
-          <li>
+          <li class="list-picture">
             <img
               src="./images/whatwedo2.jpg"
               width="370"
               alt="Людина шукає інформацію в Інтернеті"
             />
           </li>
-          <li>
+          <li class="list-picture">
             <img
               src="./images/whatwedo3.jpg"
               width="370"
@@ -101,11 +111,14 @@
             />
           </li>
         </ul>
+    
       </section>
+    </div>
 
-      <section>
+<div class="container-team">
+      <section class="title-section-part">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
+<ul class="list-team">
           <li>
             <img
               src="./images/igor.jpg"
@@ -142,15 +155,23 @@
             <p class="job-title">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
-    <footer>
+
+
+
+
+
+
+    <footer class="footer-container">
+      <div class="container">
       <a href="./index.html" lang="en" class="logo"
-        >Web<span class="logo-studio">Studio</span></a
+        >Web<span class="logo-studio-footer">Studio</span></a
       >
       <address>
-        <ul class="list">
+        <ul class="list-footer">
           <li class="address-style"><p>м. Київ, пр-т Лесі Українки, 26</p></li>
           <li>
             <a href="mailto:info@devstudio.com" class="link-footer"
@@ -163,5 +184,6 @@
         </ul>
       </address>
     </footer>
+    </div>
   </body>
 </html>
