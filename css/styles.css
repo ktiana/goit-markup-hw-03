@@ -31,7 +31,7 @@ img {
   height: auto;
 }
 
-ul, h2, p {
+ul, h1, h2, h3, h4, p {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -62,8 +62,10 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
- /* outline: 1px solid blue;  */
+  
 }
+ /* outline: 1px solid blue;  */
+
 
 
 /* Header////////////////////////////////////////////////////////////////////// */
@@ -141,10 +143,14 @@ a {
 }
 
 .section-general{
-padding-top: 94px;
+/* padding-top: 94px; */
   padding-bottom: 94px; 
 }
 
+.section-general-features{
+  padding-top: 94px; 
+    padding-bottom: 94px; 
+  }
 .section-general-team{
   padding-top: 94px;
   padding-bottom: 94px; 
@@ -287,7 +293,6 @@ padding-top: 94px;
 }
 .list-activity {
   display: flex;
-  margin-right: 30px;
   margin-top: 50px;
 }
 
@@ -333,17 +338,15 @@ padding-top: 94px;
 }
 
 .team-name {
-  margin-top: 30px;
+
   margin-bottom: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.job-title {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
+
+
 .feature-description {
   color: var(--secondary-text-color);
   margin-bottom: 0;
@@ -370,7 +373,10 @@ padding-top: 94px;
   color: var(--secondary-text-color);
 }
 
-.footer {background-color: var(--hero-bachground-color);
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--hero-bachground-color);
 }
 .footer-container {
   margin-left: auto;
@@ -378,8 +384,7 @@ padding-top: 94px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+
 
   /* outline: 1px solid crimson; */
 }
@@ -398,23 +403,27 @@ padding-top: 94px;
   margin-top: 20px;}
 
 .footer-address {
+  display: block;
   color: var(--white-text-color); 
   margin-bottom: 9px;
+  gap: 9px;
 }
 
+
 .footer-email {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   margin-bottom: 9px;
-
-
 }
 .footer-phone {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
 }
 
 .list-card{
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
@@ -424,6 +433,12 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .main-list {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-footer{
+  gap: 9px;
+}
+.page-header{
+  border-bottom: #ECECEC 1px solid;
 }
